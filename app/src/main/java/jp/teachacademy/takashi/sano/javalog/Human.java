@@ -10,6 +10,7 @@ class Human extends Animal implements Thinkable {
 
     static String to_jp = "人";
 
+    String hobby;
 
     public Human(String name, int age, String hobby){
         this.name = name;
